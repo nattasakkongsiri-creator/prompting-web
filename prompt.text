@@ -1,0 +1,52 @@
+﻿KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK
+IDNO : 6704051612581
+STUDENT NAME : Nattasak Kongsiri
+
+### Role: Senior Web Developer & UI/UX Designer
+
+### Task:
+Create a modern, responsive, and high-performance single-page travel website named "Japan Travel Box" (Target Audience: Thai Travelers).
+
+### Tech Stack:
+- HTML5 (Semantic)
+- CSS3 (Variables, Flexbox/Grid, Glassmorphism, Animations)
+- JavaScript (Vanilla ES6+)
+- No external frameworks (Bootstrap/Tailwind) allowed.
+
+### Key Features & Requirements:
+
+1. **Design System (CSS):**
+   - **Theme:** Use CSS Variables for easy Dark/Light mode switching.
+   - **Colors:** Primary Red (#BC002D), Sky Blue (#00A1E4), Dark Blue (#003399).
+   - **Effects:**
+     - **Glassmorphism:** Navbar and Tool cards must have a blur backdrop effect.
+     - **3D Tilt:** All cards (.view-card, .food-card, .tool-card) must have a 3D tilt effect on mouse hover.
+     - **Transitions:** Smooth page transitions and scroll animations.
+
+2. **Structure (HTML):**
+   - **Header (Hero Section):** Full-screen video background, "UNBOX YOUR JAPAN" headline, Thai subtitle, and a CTA button.
+   - **Navbar:** Sticky glass navbar with logo "JAPAN TRAVEL BOX 🇯🇵" and links.
+   - **Section 1: Destinations (.view-card):** Grid layout showcasing large images of Mt. Fuji, Shibuya, Arashiyama.
+   - **Section 2: Food Guide (.food-card):** Clean cards for Omakase, Ramen, Street food with ratings.
+   - **Section 3: Smart Tools (.tool-card):** A functional section containing:
+     - Currency Converter (THB to JPY).
+     - Text-to-Speech buttons for Japanese phrases.
+     - Real-time Clock (Tokyo vs Bangkok time).
+   - **Footer:** Personal portfolio credits.
+
+3. **Functionality (JavaScript):**
+   - **Interactivity:** 3D Tilt logic based on mouse position.
+   - **Tools:**
+     - Currency calculation logic.
+     - `window.speechSynthesis` for Japanese phrases.
+     - `setInterval` for the real-time clock.
+   - **UI UX:** Scroll-triggered animations (Intersection Observer) and "Back to Top" button.
+   - **Audio:** Background music toggle button.
+   - **PWA:** Basic Service Worker registration.
+
+4. **Content (Language):**
+   - Main headings in English (Impactful).
+   - Descriptions and Subtitles in **Thai** (Engaging, Tourism-style).
+
+### Output:
+Provide the complete code in 3 files: index.html, style.css, and script.js.
